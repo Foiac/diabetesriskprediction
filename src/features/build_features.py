@@ -29,7 +29,7 @@ def select_feature(df, columns_x, y):
     
     return dataset_scaled, X, Y
 
-def split_dataset(X, Y, df):
+def split_dataset(df, X, Y):
     """
     Splits the dataset into training and testing sets.
 

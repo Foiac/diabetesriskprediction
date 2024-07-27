@@ -1,3 +1,4 @@
+import numpy as np
 
 # function that trata os valores 0
 def process_data(df):
