@@ -1,0 +1,6 @@
+artifact_location: file:///D:/Data%26Telemetry/Machine%20Learning/diabetesriskprediction/mlruns/691548081937126593
+creation_time: 1722131355140
+experiment_id: '691548081937126593'
+last_update_time: 1722131355140
+lifecycle_stage: active
+name: mlflow-experiment-diabetes

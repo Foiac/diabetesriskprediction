@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%26Telemetry/Machine%20Learning/diabetesriskprediction/mlruns/691548081937126593/717bf0b3d7b1484ba16b40e359d6c976/artifacts
+end_time: 1722131366834
+entry_point_name: ''
+experiment_id: '691548081937126593'
+lifecycle_stage: active
+run_id: 717bf0b3d7b1484ba16b40e359d6c976
+run_name: thundering-newt-77
+run_uuid: 717bf0b3d7b1484ba16b40e359d6c976
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722131355905
+status: 3
+tags: []
+user_id: Caio França

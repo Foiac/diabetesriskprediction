@@ -1,0 +1,11 @@
+digest: 2f5fd052
+name: dataset
+profile: '{"features_shape": [614, 4], "features_size": 2456, "features_nbytes": 19648,
+  "targets_shape": [614], "targets_size": 614, "targets_nbytes": 4912}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 4]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"float64\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "Caio Fran\u00e7a", "mlflow.source.name": "d:/Data&Telemetry/Machine
+  Learning/diabetesriskprediction/src/main.py", "mlflow.source.type": "LOCAL", "mlflow.source.git.commit":
+  "1a62e59cbcc644d9ad5f567c6657aca712ec5c5b"}}'
+source_type: code

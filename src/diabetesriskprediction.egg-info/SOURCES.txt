@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/diabetesriskprediction.egg-info/PKG-INFO
+src/diabetesriskprediction.egg-info/SOURCES.txt
+src/diabetesriskprediction.egg-info/dependency_links.txt
+src/diabetesriskprediction.egg-info/entry_points.txt
+src/diabetesriskprediction.egg-info/requires.txt
+src/diabetesriskprediction.egg-info/top_level.txt

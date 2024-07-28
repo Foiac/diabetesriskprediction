@@ -1,0 +1,13 @@
+Executando o projeto:
+
+1 - Abrir portal da azure
+2 - Clicar no Cloud Shell -> [>_] (Cloud Shell) no topo da página
+3 - Selecionar "Bash" se perguntar
+4 - Chegar se a subscription está correta e selecionar "create sotrage"
+5 - No terminal digitar o seguinte comando para clonar o repositório:
+
+    git clone https://github.com/Foiac/diabetesriskprediction.git diabetes
+
+6 - Inserir o comando "cd diabetes"
+7 - Para dar permissão para execução do script digitar: chmod +x setupazure.sh
+8 - Executar o comando ./setupazure.sh e aguardar o provisionamento dos recursos

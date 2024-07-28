@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%26Telemetry/Machine%20Learning/diabetesriskprediction/mlruns/691548081937126593/1649871c989a41e5909d1d258b759982/artifacts
+end_time: 1722131477345
+entry_point_name: ''
+experiment_id: '691548081937126593'
+lifecycle_stage: active
+run_id: 1649871c989a41e5909d1d258b759982
+run_name: luminous-hound-869
+run_uuid: 1649871c989a41e5909d1d258b759982
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722131466175
+status: 3
+tags: []
+user_id: Caio França

@@ -33,7 +33,7 @@ setup(
     },
     entry_points={  # Pontos de entrada para comandos de linha de comando
         "console_scripts": [
-            "run-diabets-risk-prediction=main:main",
+            "run-diabetes-risk-prediction=main:main",
         ],
     },
 )
