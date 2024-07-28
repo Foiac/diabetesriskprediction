@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/Data%26Telemetry/Machine%20Learning/diabetesriskprediction/mlruns/0/b53a23b00d794e55860b01c95d1f1927/artifacts
+end_time: 1722125733389
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b53a23b00d794e55860b01c95d1f1927
+run_name: delightful-mole-221
+run_uuid: b53a23b00d794e55860b01c95d1f1927
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1722125733300
+status: 4
+tags: []
+user_id: Caio França
