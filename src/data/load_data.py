@@ -1,17 +1,19 @@
 import pandas as pd
 
-def get_data(path):
-    """
-    Lê os dados de um arquivo CSV e retorna um DataFrame.
+class LoadData:
 
-    Parâmetros:
-    path (str): O caminho para o arquivo CSV que contém os dados.
+    def get_data(self, path):
+        """
+        Reads data from a CSV file and returns a DataFrame.
 
-    Retorna:
-    pd.DataFrame: Um DataFrame contendo os dados do arquivo CSV.
-    """
-    # Lê os dados do arquivo CSV especificado no caminho 'path'
-    df = pd.read_csv(path)
+        Parameters:
+        path (str): The path to the CSV file containing the data.
 
-    # Retorna o DataFrame contendo os dados lidos
-    return df
+        Returns:
+        pd.DataFrame: A DataFrame containing the data from the CSV file.
+        """
+        # Reads the data from the CSV file specified in 'path'
+        df = pd.read_csv(path)
+
+        # Returns the DataFrame containing the read data
+        return df

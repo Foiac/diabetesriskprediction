@@ -1,24 +1,26 @@
 import numpy as np
 
-def process_data(df):
-    """
-    Processa um DataFrame para tratar valores zero em colunas específicas e substituir por NaN,
-    seguido pelo preenchimento desses valores faltantes com a média da coluna.
+class ProcessData:
+    
+    def process_data(self, df):
+        """
+        Processes a DataFrame to handle zero values in specific columns by replacing them with NaN,
+        followed by filling these missing values with the column mean.
 
-    Parâmetros:
-    df (pd.DataFrame): O DataFrame contendo os dados a serem processados.
+        Parameters:
+        df (pd.DataFrame): The DataFrame containing the data to be processed.
 
-    Retorna:
-    pd.DataFrame: O DataFrame processado com valores zero substituídos por NaN e valores faltantes
-                  preenchidos com a média da coluna.
-    """
-    # Lista de colunas para substituir valores "0" por valores NaN
-    columns = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
+        Returns:
+        pd.DataFrame: The processed DataFrame with zero values replaced by NaN and missing values
+                      filled with the column mean.
+        """
+        # List of columns to replace "0" values with NaN
+        columns = ["Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI"]
 
-    # Substitui 0 por np.nan nas colunas especificadas
-    df[columns] = df[columns].replace(0, np.nan)
+        # Replace 0 with np.nan in the specified columns
+        df[columns] = df[columns].replace(0, np.nan)
 
-    # Itera por cada coluna e preenche valores faltantes com a média da coluna
-    df.fillna({col: df[col].mean() for col in columns}, inplace=True)
+        # Iterate through each column and fill missing values with the column mean
+        df.fillna({col: df[col].mean() for col in columns}, inplace=True)
 
-    return df
+        return df

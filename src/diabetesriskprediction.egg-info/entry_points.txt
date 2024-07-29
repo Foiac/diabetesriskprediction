@@ -1,2 +1,0 @@
-[console_scripts]
-run-diabetes-risk-prediction = main:main
