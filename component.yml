@@ -6,7 +6,7 @@ display_name: Diabetes Risk Predicton
 is_deterministic: False
 inputs:
   input_dir:
-    type: uri_folder
+    type: string
 outputs:
   output_dir:
     type: uri_folder
