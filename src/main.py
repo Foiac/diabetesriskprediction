@@ -6,7 +6,7 @@ from models.train_model import Train
 def main():
 
     data = LoadData()
-    df = data.get_data("diabetesriskprediction/data/raw/diabetes.csv")
+    df = data.get_data("data/raw/diabetes.csv")
 
     process = ProcessData()
     df_transformed = process.process_data(df)
