@@ -13,5 +13,5 @@ outputs:
 code: ./
 command: >-
   python src/main.py
-  --input_dir ${{input_dir.container}}
+  --input_dir ${{inputs.input_dir}}
   --output_dir ${{outputs.output_dir}}
