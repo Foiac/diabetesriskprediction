@@ -1,0 +1,17 @@
+$schema: https://azuremlschemas.azureedge.net/latest/commandComponent.schema.json
+type: command
+
+name: diabetesriskpredicton
+display_name: Diabetes Risk Predicton
+is_deterministic: False
+inputs:
+  input_dir:
+    type: uri_folder
+outputs:
+  output_dir:
+    type: uri_folder
+code: ./
+command: >-
+  python src/main.py
+  --input_dir ${{input_dir.container}}
+  --output_dir ${{outputs.output_dir}}
