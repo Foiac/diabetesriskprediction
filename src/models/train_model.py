@@ -19,7 +19,7 @@ class Train:
         
         # MLflow experiment name
         experiment_name = "mlflow-experiment-diabetes"
-        mlflow.set_experiment(experiment_name)  # Set the experiment in MLflow
+        # mlflow.set_experiment(experiment_name)  # Set the experiment in MLflow
         
         # Start a new run of the experiment in MLflow
         with mlflow.start_run():
